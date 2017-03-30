@@ -1,65 +1,63 @@
-*
-{
-    font-family:Helvetica;
-    color:#333;
-}
-body{margin:0;}
-#banner
-{
-    padding:30vh 0;
-    text-align:center;
-    background-image:url('../img/img1.jpg');
-    background-attachment: fixed;
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center;
-}
+* {
+  font-family: Helvetica;
+  color: #333; }
 
-#banner h1
-{
-    color:white;
-    font-size:50pt;
-    text-shadow: 0px 0px 15px black; 
-}
-#banner h3
-{
-    color:white;
-    text-shadow: 0px 0px 15px black; 
-}
+head:after {
+  content: "<meta name='viewport' content='width=device-width, initial-scale=1'>"; }
 
-#terminal
-{
-    width:600px;
-    margin: 0px auto;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-}
-#terminal p
-{
-    font-family:Courier new, monospace;
-    padding-left:20px;
-    text-align:left;
-    background-color:#333;
-    color:white;
-    padding-top:20px;
-    padding-bottom:20px;
-}
-#features
-{
-    text-align:center;
-    height:50vh; 
-    max-width:1000px;
-    width90%;
-    margin:0 auto;
-}
-.third
-{
-    float:left;
+body {
+  margin: 0; }
+
+#banner {
+  width: 100%;
+  padding: 30vh 0;
+  text-align: center;
+  background-image: url("/img/bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  #banner h1 {
+    color: #ddd;
+    font-size: 50pt;
+    text-shadow: 0px 0px 15px #333; }
+    #banner h1:after {
+      content: "hello"; }
+  #banner h3 {
+    color: #ddd;
+    text-shadow: 0px 0px 15px #333; }
+
+#terminal {
+  width: 80%;
+  max-width: 600px;
+  margin: 0px auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px; }
+  #terminal p {
+    font-family: Courier new, monospace;
+    padding-left: 20px;
+    text-align: left;
+    background-color: #333;
+    color: #ddd;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+
+#features {
+  text-align: center;
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  overflow: auto; }
+  #features .third {
+    float: left;
     width: 33%;
-    margin:auto;
-}
-.third .icon
-{
-    font-size:100pt;
-}
+    margin: auto; }
+    #features .third .icon {
+      font-size: 100pt; }
+
+@media screen and (max-width: 640px) {
+  .third {
+    float: none; } }
+
+/*# sourceMappingURL=startup.css.map */
