@@ -6,11 +6,13 @@ head:after {
   content: "<meta name='viewport' content='width=device-width, initial-scale=1'>"; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  background-color: #fefefe; }
 
 #banner {
   width: 100%;
-  padding: 30vh 0;
+  padding: 25vh 0;
+  height: 50vh;
   text-align: center;
   background-image: url("/img/bg.jpg");
   background-attachment: fixed;
@@ -18,14 +20,12 @@ body {
   background-repeat: no-repeat;
   background-position: center; }
   #banner h1 {
-    color: #ddd;
+    color: #fefefe;
     font-size: 50pt;
-    text-shadow: 0px 0px 15px #333; }
-    #banner h1:after {
-      content: "hello"; }
+    text-shadow: 0px 0px 15px #222; }
   #banner h3 {
-    color: #ddd;
-    text-shadow: 0px 0px 15px #333; }
+    color: #fefefe;
+    text-shadow: 0px 0px 15px #222; }
 
 #terminal {
   width: 80%;
@@ -38,18 +38,21 @@ body {
     font-family: Courier new, monospace;
     padding-left: 20px;
     text-align: left;
-    background-color: #333;
-    color: #ddd;
+    background-color: #222;
+    color: #fefefe;
     padding-top: 20px;
     padding-bottom: 20px; }
 
 #features {
-  text-align: center;
+  padding: 5%;
   max-width: 1000px;
   width: 90%;
   margin: 0 auto;
   overflow: auto; }
+  #features h1 {
+    text-align: center; }
   #features .third {
+    text-align: center;
     float: left;
     width: 33%;
     margin: auto; }
@@ -57,7 +60,7 @@ body {
       font-size: 100pt; }
 
 @media screen and (max-width: 640px) {
-  .third {
+  #features .third {
     float: none; } }
 
 /*# sourceMappingURL=startup.css.map */
