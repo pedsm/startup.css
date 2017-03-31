@@ -42,6 +42,8 @@ body {
     color: #fefefe;
     padding-top: 20px;
     padding-bottom: 20px; }
+    #terminal p:before {
+      content: "> "; }
 
 #features {
   padding: 5%;

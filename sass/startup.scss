@@ -1,7 +1,12 @@
 //Variables
+//images
 $background1: "/img/bg.jpg";
+//colours
 $black: #222;
 $white: #fefefe;
+
+//terminal symbol(space is not required)
+$terminalBegin: "> ";
 
 //breakpoints for media-queries
 $breakpoint: 640px;
@@ -63,6 +68,10 @@ body{
 	    color:$white;
 	    padding-top:20px;
 	    padding-bottom:20px;
+		&:before
+		{
+			content:$terminalBegin;
+		}
 	}
 }
 //features
