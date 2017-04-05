@@ -98,8 +98,12 @@ body{
 		.icon {
 		    font-size:100pt;
 		}
-		
+		@media screen and (max-width: $breakpoint)
+		{
+			float:none;
+		}
 	}
+	
 	//Add more at will
 	.half { @include grid(2); }
 	.third { @include grid(3); }
@@ -110,10 +114,5 @@ body{
 //Mobile breakpoint
 @media screen and (max-width: $breakpoint)
 {
-	#features
-	{
-		.third {
-			float:none;
-		}
-	}
+	//Added into mixin
 }
