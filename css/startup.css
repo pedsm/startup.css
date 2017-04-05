@@ -78,6 +78,9 @@ body {
     margin: auto; }
     #features .half .icon {
       font-size: 100pt; }
+    @media screen and (max-width: 640px) {
+      #features .half {
+        float: none; } }
   #features .third {
     text-align: center;
     float: left;
@@ -85,6 +88,9 @@ body {
     margin: auto; }
     #features .third .icon {
       font-size: 100pt; }
+    @media screen and (max-width: 640px) {
+      #features .third {
+        float: none; } }
   #features .quarted {
     text-align: center;
     float: left;
@@ -92,6 +98,9 @@ body {
     margin: auto; }
     #features .quarted .icon {
       font-size: 100pt; }
+    @media screen and (max-width: 640px) {
+      #features .quarted {
+        float: none; } }
   #features .fifth {
     text-align: center;
     float: left;
@@ -99,9 +108,8 @@ body {
     margin: auto; }
     #features .fifth .icon {
       font-size: 100pt; }
-
-@media screen and (max-width: 640px) {
-  #features .third {
-    float: none; } }
+    @media screen and (max-width: 640px) {
+      #features .fifth {
+        float: none; } }
 
 /*# sourceMappingURL=startup.css.map */
