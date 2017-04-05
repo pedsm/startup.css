@@ -4,6 +4,7 @@ $background1: "/img/bg.jpg";
 $background2: "/img/bg2.jpg";
 //colours
 $black: #222;
+$blackShine: #222 + #555;
 $white: #fefefe;
 
 //terminal symbol(space is not required)
@@ -11,6 +12,11 @@ $terminalBegin: "> ";
 
 //breakpoints for media-queries
 $breakpoint: 640px;
+
+//Mixins
+@mixin hover {
+	-webkit-transition-duration:0.1s;
+}
 
 //Global configs
 *
@@ -111,8 +117,24 @@ body{
 	.fifth { @include grid(5); }
 }
 
+#footer
+{
+	width:100%;
+	height:20px;
+	text-align:center;
+	i{
+		@include hover;
+		font-size:20pt;
+		margin:10px;
+		&:hover{
+			color:$blackShine;
+		}
+	}
+}
+
 //Mobile breakpoint
 @media screen and (max-width: $breakpoint)
 {
 	//Added into mixin
 }
+
