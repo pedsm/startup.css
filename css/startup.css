@@ -27,6 +27,24 @@ body {
     color: #fefefe;
     text-shadow: 0px 0px 15px #222; }
 
+#banner2 {
+  width: 100%;
+  padding: 25vh 0;
+  height: 50vh;
+  text-align: center;
+  background-image: url("/img/bg2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  #banner2 h1 {
+    color: #fefefe;
+    font-size: 50pt;
+    text-shadow: 0px 0px 15px #222; }
+  #banner2 h3 {
+    color: #fefefe;
+    text-shadow: 0px 0px 15px #222; }
+
 #terminal {
   width: 80%;
   max-width: 600px;
@@ -53,12 +71,33 @@ body {
   overflow: auto; }
   #features h1 {
     text-align: center; }
+  #features .half {
+    text-align: center;
+    float: left;
+    width: 50%;
+    margin: auto; }
+    #features .half .icon {
+      font-size: 100pt; }
   #features .third {
     text-align: center;
     float: left;
-    width: 33%;
+    width: 33.33333%;
     margin: auto; }
     #features .third .icon {
+      font-size: 100pt; }
+  #features .quarted {
+    text-align: center;
+    float: left;
+    width: 25%;
+    margin: auto; }
+    #features .quarted .icon {
+      font-size: 100pt; }
+  #features .fifth {
+    text-align: center;
+    float: left;
+    width: 20%;
+    margin: auto; }
+    #features .fifth .icon {
       font-size: 100pt; }
 
 @media screen and (max-width: 640px) {
