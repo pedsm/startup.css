@@ -1,0 +1,25 @@
+{
+  "name": "startup.css",
+  "version": "1.0.0",
+  "description": "A css micro-framework",
+  "main": "css/main.css",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "ruby test/travis.rb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedsm/startup.css.git"
+  },
+  "keywords": [
+    "Css"
+  ],
+  "author": "Pedro Mendonca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedsm/startup.css/issues"
+  },
+  "homepage": "https://github.com/pedsm/startup.css#readme"
+}
