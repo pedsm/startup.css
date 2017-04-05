@@ -1,5 +1,6 @@
 # startup.css
 [![Build Status](https://travis-ci.org/pedsm/startup.css.svg?branch=master)](https://travis-ci.org/pedsm/startup.css)
+[![npm version](https://badge.fury.io/js/startup.css.svg)](https://badge.fury.io/js/startup.css)
 
 Startup.css is a micro framework for making super quick static websites. For those times you need a quick amazing looking website.
 
